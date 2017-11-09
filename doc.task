@@ -1,0 +1,80 @@
+wayic/cast/doc.task - The waycast / documentation in rough
+
+    ____________________________________________________________________________________________________
+    design constraints`
+    [ ⤓ minimal
+        - necessary form
+        * /actor/
+            < example: http://reluk.ca/project/way/actor/
+                - q.v. for description
+        * /OTHER/
+            - to formalize the intermediate means to the visionary's endmost goal
+                - and the goal's warrant or explanation, if any
+            - needed unless the goal is directly reachable
+                - both in practice
+                    - needs no means but a willing actor
+                - and in theory
+                    - needs no warrant, no explanation outside of itself
+        * /visionary/
+            < example: http://reluk.ca/project/way/visionary/
+                - q.v. for description
+    [ ⤒ maximal
+        - allowed form
+            * directories
+                ( aka 'folders'
+                - purpose
+                    - readability
+                        ( http://reluk.ca/project/way/engineer/wayics/way.xht#public_reading
+                        - to structure the content for readability
+                    - to facilitate polling
+                        - to delimit the issue of each poll in which the wayscribe may vote
+            * README files
+                - purpose: readability
+                    ( http://reluk.ca/project/way/engineer/wayics/way.xht#public_reading
+                    - enabling the waycast to explain itself to the reader
+            * wayscript files
+                - files that are dedicated to wayscript, e.g. way.xht
+            * uniquely personal files
+                - private or personally customized content
+                - though the bulk of content is expected to be literally shareable in common with others
+                    - there's no point in trying to restrict what isn't
+            * anything else that reason demands
+                ( cf. 'catch all'
+                - not to impose restrictions that are 'outright barbarous'
+                    - George Orwell, 1946.  Politics and the English language.  Horizon, London.
+                        ( http://www.orwell.ru/library/essays/politics/english/e_polit/
+                        ' Break any of these rules sooner than say anything outright barbarous.
+                - I would document the reason
+                    - why it isn't better (or just as well) stored outside the waycast
+        - disallowed form
+            * wayscribe-defined file names beginning with an underscore '_'
+                ( including directory names
+                - reserved for future definition
+            * wayscript in non-way files
+                - wayscript inclusions in files not dedicated to wayscripting
+                    ( as e.g. way.xht is dedicated
+                - else if also relying on other files to formalize one's way:
+                    - the waycast would lose coherence
+                    - personally
+                        - it would get out of hand
+                        - it would feel less WYSIWYG when editing the files
+                            - since a unified view would require a more complicated assembly
+                              that's difficult to foresee in imagination
+                                - while editing
+                    - technically
+                        - since a unified view/presentation would require a more complicated assembly
+                            - it would be more difficult to program the presenter (UI)
+                - else if other files could be (in whole or part) candidates for a way vote:
+                    - loss of focus for the vote
+                        - the issue is likely to get fuzzified because the content is likely
+                          to stray to concerns other than way definition (the concern of wayscript)
+            * anything that's better (or just as well) stored outside the waycast
+                ( cf. 'catch all'
+
+    ____________________________________________________________________________________________________
+    directory structure`
+    ( ._/doc_boneyard.task
+
+
+
+                                          Copyright © 2017 Michael Allan and contributors.  Licence MIT.
