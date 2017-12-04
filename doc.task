@@ -1,4 +1,4 @@
-wayic/cast/doc.task - The waycast / documentation in rough
+wayic.cast/doc.task - The waycast / documentation in rough
 
     ____________________________________________________________________________________________________
     design constraints`
@@ -23,21 +23,21 @@ wayic/cast/doc.task - The waycast / documentation in rough
             * directories
                 ( aka 'folders'
                 - purpose
-                    - readability
-                        ( http://reluk.ca/project/way/engineer/wayics/way.xht#public_reading
-                        - to structure the content for readability
+                    - way clarity
+                        ( http://reluk.ca/project/way/engineer/wayics/way.xht#way_clarity
+                        - allow the waycast to be organized for sake of clarifying the general way form
                     - to facilitate polling
                         - to delimit the issue of each poll in which the wayscribe may vote
             * README files
-                - purpose: readability
-                    ( http://reluk.ca/project/way/engineer/wayics/way.xht#public_reading
-                    - enabling the waycast to explain itself to the reader
+                - purpose: way clarity
+                    ( http://reluk.ca/project/way/engineer/wayics/way.xht#way_clarity
+                    - enabling the waycast to describe itself for sake of clarifying the general way form
             * wayscript files
                 - files that are dedicated to wayscript, e.g. way.xht
             * uniquely personal files
                 - private or personally customized content
                 - though the bulk of content is expected to be literally shareable in common with others
-                    - there's no point in trying to restrict what isn't
+                    - there's no use in trying to restrict what isn't
             * anything else that reason demands
                 ( cf. 'catch all'
                 - not to impose restrictions that are 'outright barbarous'
