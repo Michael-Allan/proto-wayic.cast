@@ -23,14 +23,12 @@ wayic.cast/doc.task - The waycast / documentation in rough
             * directories
                 ( aka 'folders'
                 - purpose
-                    - way clarity
-                        ( http://reluk.ca/project/way/engineer/wayics/way.xht#way_clarity
+                    - clarity
                         - allow the waycast to be organized for sake of clarifying the general way form
                     - to facilitate polling
                         - to delimit the issue of each poll in which the wayscribe may vote
             * README files
-                - purpose: way clarity
-                    ( http://reluk.ca/project/way/engineer/wayics/way.xht#way_clarity
+                - purpose: clarity
                     - enabling the waycast to describe itself for sake of clarifying the general way form
             * wayscript files
                 - files that are dedicated to wayscript, e.g. way.xht
@@ -77,4 +75,4 @@ wayic.cast/doc.task - The waycast / documentation in rough
 
 
 
-                                          Copyright © 2017 Michael Allan and contributors.  Licence MIT.
+                                     Copyright © 2017-2018 Michael Allan and contributors.  Licence MIT.
