@@ -11,16 +11,23 @@
                   waycast</a></h2>
     <ul>
         <li>
-            (noun) a form of <a href='http://reluk.ca/project/wayic/lex/way'>way</a> definition
+            (noun) a formal <a href='http://reluk.ca/project/wayic/lex/way'>way</a> definition
             <!-- from http://reluk.ca/project/way/engineer/wayics/cast/way.xht#waycast_defined -->
-            </li>
-        <li>
-            (noun) the content of a waycast, namely the formal definition of a way
             </li>
         <li>
             (verb) to formally define a way
             </li>
         </ul>
+    <section      id='the_waycast'>
+        <h3><a href='#the_waycast'>
+                      the waycast</a></h3>
+        <ul>
+            <li>
+                the general form of a waycast <!--
+                  from http://reluk.ca/project/way/engineer/wayics/cast/way.xht#the_waycast_defined -->
+                </li>
+            </ul>
+        </section>
     </section>
 <section      id='waycaster'>
     <h2><a href='#waycaster'>
