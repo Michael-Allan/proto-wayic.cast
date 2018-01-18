@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='en-CA' xml:lang='en-CA'>
+    <head>
+        <title>‘cast’</title>
+        </head>
+    <body>
+        <!-- <<< deindent -->
+
+<section      id='cast'>
+    <h2><a href='#cast'>
+                  cast</a></h2>
+    <ul>
+        <li>
+            (verb) to <a href='waycast'>waycast</a>
+            </li>
+        </ul>
+    </section>
+<section      id='caster'>
+    <h2><a href='#caster'>
+                  caster</a></h2>
+    <ul>
+        <li>
+            one who waycasts
+            </li>
+        </ul>
+    </section>
+
+        <!-- >>> reindent -->
+        </body>
+    </html>
