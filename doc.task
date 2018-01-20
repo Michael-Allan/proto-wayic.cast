@@ -4,10 +4,21 @@ wayic.cast/doc.task - Documentation in rough
     design constraints`
     [ ⤓ minimal
         - necessary form
+        = amend
+            - directory forms should no longer be necessary
+                ( as per § directories
+            - rather the minimum should be a single file
+                - say _way.xht
+                - which can then be waylinked into a file structure of the waycaster's choosing
+        = reconsider the need of augmented local access
+            ( http://reluk.ca/project/wayic/read/local_access/
+            - it might be possible (with this amendment) to drop it
         * /actor/
             < example: http://reluk.ca/project/way/actor/
                 - q.v. for description
         * /OTHER/
+            = amend
+                - additionally this function may be supplied in the form of intercast waylinks
             - to formalize the intermediate means to the visionary's endmost goal
                 - and the goal's warrant or explanation, if any
             - needed unless the goal is directly reachable
@@ -25,8 +36,9 @@ wayic.cast/doc.task - Documentation in rough
                 - purpose
                     - clarity
                         - allow the waycast to be organized for sake of clarifying the general way form
-                    - to facilitate polling
-                        - to delimit the issue of each poll in which the wayscribe may vote
+                  / - to facilitate polling
+                  /     - to delimit the issue of each poll in which the wayscribe may vote
+                  // superceded by wayic.intercast § bit poll
             * README files
                 - purpose: clarity
                     - enabling the waycast to describe itself for sake of clarifying the general way form
@@ -62,16 +74,8 @@ wayic.cast/doc.task - Documentation in rough
                     - technically
                         - since a unified view/presentation would require a more complicated assembly
                             - it would be more difficult to program the presenter (UI)
-                - else if other files could be (in whole or part) candidates for a way vote:
-                    - loss of focus for the vote
-                        - the issue is likely to get fuzzified because the content is likely
-                          to stray to concerns other than way definition (the concern of wayscript)
             * anything that's better (or just as well) stored outside the waycast
                 ( cf. 'catch all'
-
-    ____________________________________________________________________________________________________
-    directory structure`
-    ( ._/doc_boneyard.task
 
 
 
