@@ -38,7 +38,7 @@ wayic.cast/doc.task - Documentation in rough
                         - allow the waycast to be organized for sake of clarifying the general way form
                   / - to facilitate polling
                   /     - to delimit the issue of each poll in which the wayscribe may vote
-                  // superceded by wayic.intercast § bit poll
+                  // superceded by wayic.intercast § waybit population
             * README files
                 - purpose: clarity
                     - enabling the waycast to describe itself for sake of clarifying the general way form

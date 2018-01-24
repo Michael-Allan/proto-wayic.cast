@@ -11,11 +11,13 @@
                   waycast</a></h2>
     <ul>
         <li>
-            (noun) a formal <a href='http://reluk.ca/project/wayic/lex/way'>way</a> definition
+            (noun) a formal declaration of a <a href='http://reluk.ca/project/wayic/lex/way'>way</a>
             <!-- from http://reluk.ca/project/way/engineer/wayics/cast/way.xht#waycast_defined -->
+            <!-- Not 'definition': a single waycast is declarative of a way, not necessarily definitive,
+                 ∵ the definition may be spread across multiple waycasts via intercast waylinks. -->
             </li>
         <li>
-            (verb) to formally define a way
+            (verb) to formally declare a way
             </li>
         </ul>
     <section      id='the_waycast'>
