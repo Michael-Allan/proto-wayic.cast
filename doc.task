@@ -1,6 +1,26 @@
 wayic.cast/doc.task - Documentation in rough
 
     ____________________________________________________________________________________________________
+    configuration`
+    ( when it's needed
+    - located in a waycast root file
+        - in one of
+            * /way.xht
+            * /waycast.js
+        - if waycast.js is not present
+            - then the configuration (if any) is in a <script> element of way.xht
+        - this allows for a waycast comprised of one file
+            - no dedicated waycast directory
+    - loaded by way files and wayic processors
+    - implies a required change to reserved file names
+        ( instead of underscore '_' names
+        - all files (and directories) with names beginning 'waycast'
+        - purpose of reservation: to allow storage for:
+            - other forms (than JavaScript) of waycast configuration
+            - other files whose expected location cannot be defined (or redefined)
+              by the waycast configuration
+
+    ____________________________________________________________________________________________________
     design constraints`
     [ ⤓ minimal
         - necessary form
