@@ -24,31 +24,9 @@ wayic.cast/doc.task - Documentation in rough
     design constraints`
     [ ⤓ minimal
         - necessary form
-        = amend
-            - directory forms should no longer be necessary
-                ( as per § directories
-            - rather the minimum should be a single file
-                - say _way.xht
-                - which can then be waylinked into a file structure of the waycaster's choosing
-        = reconsider the need of augmented local access
-            ( http://reluk.ca/project/wayic/read/local_access/
-            - it might be possible (with this amendment) to drop it
-        * /actor/
-            < example: http://reluk.ca/project/waycast/actor/
-                - q.v. for description
-        * /OTHER/
-            = amend
-                - additionally this function may be supplied in the form of intercast waylinks
-            - to formalize the intermediate means to the visionary's endmost goal
-                - and the goal's warrant or explanation, if any
-            - needed unless the goal is directly reachable
-                - both in practice
-                    - needs no means but a willing actor
-                - and in theory
-                    - needs no warrant, no explanation outside of itself
-        * /visionary/
-            < example: http://reluk.ca/project/waycast/visionary/
-                - q.v. for description
+        * /way.xht
+            < example: http://reluk.ca/project/waycast/way.xht
+            - to declare the way in the form of wayscript
     [ ⤒ maximal
         - allowed form
             * directories
@@ -70,10 +48,6 @@ wayic.cast/doc.task - Documentation in rough
                     - there's no use in trying to restrict what isn't
             * anything else that reason demands
                 ( cf. 'catch all'
-                - not to impose restrictions that are 'outright barbarous'
-                    - George Orwell, 1946.  Politics and the English language.  Horizon, London.
-                        ( http://www.orwell.ru/library/essays/politics/english/e_polit/
-                        ' Break any of these rules sooner than say anything outright barbarous.
                 - I would document the reason
                     - why it isn't better (or just as well) stored outside the waycast
         - disallowed form
