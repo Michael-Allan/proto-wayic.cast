@@ -31,12 +31,17 @@ wayic.cast/doc.task - Documentation in rough
         - allowed form
             * directories
                 ( aka 'folders'
-                - purpose
-                    - clarity
-                        - allow the waycast to be organized for sake of clarifying the general way form
-                  / - to facilitate polling
-                  /     - to delimit the issue of each poll in which the wayscribe may vote
-                  // superceded by wayic.intercast § waybit population
+                - gross, ad hoc structuring of way definitions
+                    - the full definition is so structured
+                        - not merely its declaration
+                    ( in other words
+                        - looking at the extreme case
+                            ( which is nevertheless expected to be the most common case
+                        - a way declaration comprising a single intercast waylink
+                          nevertheless resolves to a way definition that is structured by all
+                          remote directories which the link entails
+                - purpose: orientation
+                    - the name and path of a directory reveals in part the context of its wayic content
             * README files
                 - purpose: clarity
                     - enabling the waycast to describe itself for sake of clarifying the general way form
