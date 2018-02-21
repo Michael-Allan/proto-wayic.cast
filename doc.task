@@ -25,8 +25,22 @@ wayic.cast/doc.task - Documentation in rough
     [ ⤓ minimal
         - necessary form
         * /way.xht
-            < example: http://reluk.ca/project/waycast/way.xht
-            - to declare the way in the form of wayscript
+            - the root document
+                ( root#root_document
+            - its purpose is to declare in wayscript form both the way and the commitment to act on it
+            * way
+                - a minimal way declaration comprises a root element in the form of an intercast waylink
+                    ( root#root_element
+                    ( http://reluk.ca/project/wayic/intercast/ § intercast waylink
+                - this is also a typical way declaration, though not infrequently
+                  it would be accompanied by the declaration of one or more variant waybits, too
+                    ( http://reluk.ca/project/wayic/intercast/ § *patch* element
+            * commitment
+                - the minimum here is a waylink target node with a *lid* attribute of 'commitment'
+                    ( http://reluk.ca/project/wayic/script/doc.task § waylink § target nodes
+                - no actual commitment declaration (no corresponding source node) is required
+                    ( http://reluk.ca/project/wayic/script/doc.task § commitment declaration
+                    - though typically there'd be one or more of these
     [ ⤒ maximal
         - allowed form
             * directories
@@ -36,8 +50,7 @@ wayic.cast/doc.task - Documentation in rough
                         - not merely its declaration
                     ( in other words
                         - looking at the extreme case
-                            ( which is nevertheless expected to be the most common case
-                        - a way declaration comprising a single intercast waylink
+                        - a way declaration comprising a single intercast waylink (§ minimal § way)
                           nevertheless resolves to a way definition that is structured by all
                           remote directories which the link entails
                 - purpose: orientation
