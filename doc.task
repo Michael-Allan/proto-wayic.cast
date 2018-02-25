@@ -1,6 +1,10 @@
 wayic.cast/doc.task - Documentation in rough
 
     ____________________________________________________________________________________________________
+    architectural import`
+    < http://reluk.ca/project/wayic/architecture/doc.task § wayic architecture = waycast form
+
+    ____________________________________________________________________________________________________
     configuration`
     ( when it's needed
     - located in a waycast root file
