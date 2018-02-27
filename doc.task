@@ -40,7 +40,7 @@ wayic.cast/doc.task - Documentation in rough
                   it would be accompanied by the declaration of one or more variant waybits, too
                     ( http://reluk.ca/project/wayic/intercast/ § *patch* element
             * commitment
-                - the minimum here is a waylink target node with a *lid* attribute of 'commitment'
+                - the minimum here is a waylink target node with an *id* attribute of 'commitment'
                     ( http://reluk.ca/project/wayic/script/doc.task § waylink § target nodes
                 - no actual commitment declaration (no corresponding source node) is required
                     ( http://reluk.ca/project/wayic/script/doc.task § commitment declaration
