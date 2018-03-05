@@ -4,7 +4,7 @@
         <title>‘waycast’</title>
         </head>
     <body>
-        <!-- <<< deindent -->
+
 
 <section      id='waycast'>
     <h2><a href='#waycast'>
@@ -40,6 +40,6 @@
         </ul>
     </section>
 
-        <!-- >>> reindent -->
+
         </body>
     </html>

@@ -4,7 +4,7 @@
         <title>‘intracast’</title>
         </head>
     <body>
-        <!-- <<< deindent -->
+
 
 <section      id='intracast'>
     <h2><a href='#intracast'>
@@ -19,6 +19,6 @@
         </ul>
     </section>
 
-        <!-- >>> reindent -->
+
         </body>
     </html>
