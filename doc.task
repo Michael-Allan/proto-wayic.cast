@@ -5,31 +5,6 @@ wayic.cast/doc.task - Documentation in rough
     < http://reluk.ca/project/wayic/architecture/doc.task § wayic architecture = waycast form
 
     ____________________________________________________________________________________________________
-    configuration`
-    ( when it's needed
-    - located in waycast root script /waycast.js
-        -? how find it
-            | explicit relative location + it replaces *cog:cast*
-                - each way.xht loads waycast.js by a *script* element with a relative *src* path
-                - this makes *cog:cast* superfluous
-                    - at least its *base* attribute is now superfluous
-                        - implied already by relative *src* path of (root file) waycast.js
-      / - if waycast.js is not present
-      /     - then the configuration (if any) is in a <script> element of /way.xht
-      /     - this allows for a waycast comprised of one file
-      /         - no dedicated waycast directory
-      //    ! no other way document could boot from that element
-      /         - refering to it with a fragmented *src* URL fails (Chrome and Firefox)
-    - loaded by way files and wayic processors
-    - implies a required change to reserved file names
-        ( instead of underscore '_' names
-        - all files (and directories) with names beginning 'waycast'
-        - purpose of reservation: to allow storage for:
-            - other forms (than JavaScript) of waycast configuration
-            - other files whose expected location cannot be defined (or redefined)
-              by the waycast configuration
-
-    ____________________________________________________________________________________________________
     design constraints`
     [ ⤓ minimal
         - necessary form
@@ -78,9 +53,12 @@ wayic.cast/doc.task - Documentation in rough
                 - I would document the reason
                     - why it isn't better (or just as well) stored outside the waycast
         - disallowed form
-            * wayscribe-defined file names beginning with an underscore '_'
-                ( including directory names
-                - reserved for future definition
+          / * wayscribe-defined file names beginning with an underscore '_'
+          /     ( including directory names
+          /     - reserved for future definition
+          //    ! useless
+          /         - already the individual waycaster is able to avoid local file name conflicts
+          /           or to resolve any that might be introduced by a change of waycast design
             * wayscript in non-way files
                 - wayscript inclusions in files not dedicated to wayscripting
                     ( as e.g. way.xht is dedicated
@@ -95,8 +73,22 @@ wayic.cast/doc.task - Documentation in rough
                     - technically
                         - since a unified view/presentation would require a more complicated assembly
                             - it would be more difficult to program the presenter (UI)
-            * anything that's better (or just as well) stored outside the waycast
+            * anything that is better (or just as well) stored outside the waycast
                 ( cf. 'catch all'
+
+    ____________________________________________________________________________________________________
+    personalized configuration`
+    - one's personal configuration goes in waycast root files such as
+        * /way.css
+        * /way.js
+    -? how refer to the root directory in the way.xht *style* and *script*
+        - explicit relative location + it replaces *cog:cast*
+            - each way.xht loads way.js by a *script* element with a relative *src* path
+            - this makes *cog:cast* superfluous
+                - at least its *base* attribute is now superfluous
+                    - implied already by relative *src* path of (root file) way.js
+            = test the replacement
+            = commit
 
 
 
