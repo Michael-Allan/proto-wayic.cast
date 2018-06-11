@@ -78,17 +78,38 @@ wayic.cast/doc.task - Documentation in rough
 
     ____________________________________________________________________________________________________
     personalized configuration`
-    - one's personal configuration goes in waycast root files such as
-        * /way.css
-        * /way.js
-    -? how refer to the root directory in the way.xht *style* and *script*
-        - explicit relative location + it replaces *cog:cast*
-            - each way.xht loads way.js by a *script* element with a relative *src* path
-            - this makes *cog:cast* superfluous
-                - at least its *base* attribute is now superfluous
-                    - implied already by relative *src* path of (root file) way.js
-            = test the replacement
-            = commit
+    [ way declaration documents
+        - one's personal configuration for way declaration documents is located
+          in files in the base directory of the waycast
+            - file types
+                * way.css
+                    - personal style sheet
+                    ( example: http://reluk.ca/project/waycast/way.css
+                * way.js
+                    - personal configuration script
+                    ( example: http://reluk.ca/project/waycast/way.js
+        - these files configure the waycaster's own view of the way declaration
+            - and thereby the default view of others
+        - they are referenced from the way declaration document
+            ( example: https://github.com/Michael-Allan/waycast/blob/master/autonomist/way.xht
+                ( live: http://reluk.ca/project/waycast/autonomist/way.xht
+            * usage instructions:
+                = link to way.css from the *head* element of the document
+                    - example:
+
+                          <head>
+                              · · ·
+                              <link rel='stylesheet' href='../way.css'/> <!-- HERE CUSTOM -->
+                              · · ·
+                              </head>
+
+                = load way.js from the bottom of the *body* element
+                    - example:
+
+                          <body>
+                              · · ·
+                              <script src='../way.js'/> <!-- HERE CUSTOM -->
+                              </body>
 
 
 
