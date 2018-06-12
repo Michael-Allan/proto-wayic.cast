@@ -7,10 +7,10 @@ wayic.cast/doc.task - Documentation in rough
     ____________________________________________________________________________________________________
     design constraints`
     [ ⤓ minimal
-        - necessary form
+        - necessary form of the waycast
         * /way.xht
-            - the root document
-                ( root#root_document
+            - the root way declaration document
+                ( root#root_way_declaration_document
             - its purpose is to declare in wayscript form both the way and the commitment to act on it
             * way
                 - a minimal way declaration comprises a root element in the form of an intercast waylink
@@ -26,7 +26,7 @@ wayic.cast/doc.task - Documentation in rough
                     ( http://reluk.ca/project/wayic/script/doc.task § commitment declaration
                     - though typically there'd be one or more of these
     [ ⤒ maximal
-        - allowed form
+        - allowed form of the waycast
             * directories
                 ( aka 'folders'
                 - gross, ad hoc structuring of way definitions
@@ -42,8 +42,8 @@ wayic.cast/doc.task - Documentation in rough
             * README files
                 - purpose: clarity
                     - enabling the waycast to describe itself for sake of clarifying the general way form
-            * wayscript files
-                - files that are dedicated to wayscript, e.g. way.xht
+            * way declaration documents
+                ( ./way_declaration_document
             * uniquely personal files
                 - private or personally customized content
                 - though the bulk of content is expected to be literally shareable in common with others
@@ -59,16 +59,14 @@ wayic.cast/doc.task - Documentation in rough
           //    ! useless
           /         - already the individual waycaster is able to avoid local file name conflicts
           /           or to resolve any that might be introduced by a change of waycast design
-            * wayscript in non-way files
-                - wayscript inclusions in files not dedicated to wayscripting
-                    ( as e.g. way.xht is dedicated
-                - else if also relying on other files to formalize one's way:
+            * wayscript located in files other than way declaration documents
+                - else if relying on another file type to formalize one's way:
                     - the waycast would lose coherence
                     - personally
                         - it would get out of hand
                         - it would feel less WYSIWYG when editing the files
                             - since a unified view would require a more complicated assembly
-                              that's difficult to foresee in imagination
+                              that is difficult to foresee in imagination
                                 - while editing
                     - technically
                         - since a unified view/presentation would require a more complicated assembly
@@ -79,6 +77,7 @@ wayic.cast/doc.task - Documentation in rough
     ____________________________________________________________________________________________________
     personalized configuration`
     [ way declaration documents
+        ( ./way_declaration_document
         - one's personal configuration for way declaration documents is located
           in files in the base directory of the waycast
             - file types
@@ -110,7 +109,6 @@ wayic.cast/doc.task - Documentation in rough
                               · · ·
                               <script src='../way.js'/> <!-- HERE CUSTOM -->
                               </body>
-
 
 
                                      Copyright © 2017-2018 Michael Allan and contributors.  Licence MIT.
