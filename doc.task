@@ -75,40 +75,38 @@ wayic.cast/doc.task - Documentation in rough
                 ( cf. 'catch all'
 
     ____________________________________________________________________________________________________
-    personalized configuration`
-    [ way declaration documents
-        ( ./way_declaration_document
-        - one's personal configuration for way declaration documents is located
-          in files in the base directory of the waycast
-            - file types
-                * way.css
-                    - personal style sheet
-                    ( example: http://reluk.ca/project/waycast/way.css
-                * way.js
-                    - personal configuration script
-                    ( example: http://reluk.ca/project/waycast/way.js
-        - these files configure the waycaster's own view of the way declaration
-            - and thereby the default view of others
-        - they are referenced from the way declaration document
-            ( example: https://github.com/Michael-Allan/waycast/blob/master/autonomist/way.xht
+    personal configuration`
+    [ way declaration document
+        - the web view of each way declaration document is configured by these files
+          located in the base directory of the waycast
+            * way.css
+                - personal style sheet
+                ( example: http://reluk.ca/project/waycast/way.css
+            * way.js
+                - personal configuration program
+                ( example: http://reluk.ca/project/waycast/way.js
+        - they configure the view shown to the waycaster
+            - and the default view shown to others
+        * usage instructions for a way declaration document
+            - working example
+                ( source: https://github.com/Michael-Allan/waycast/blob/master/autonomist/way.xht
                 ( live: http://reluk.ca/project/waycast/autonomist/way.xht
-            * usage instructions:
-                = link to way.css from the *head* element of the document
-                    - example:
+            = link to way.css from the *head* element of the document
+                - example:
 
-                          <head>
-                              · · ·
-                              <link rel='stylesheet' href='../way.css'/> <!-- HERE CUSTOM -->
-                              · · ·
-                              </head>
+                      <head>
+                          · · ·
+                          <link rel='stylesheet' href='../way.css'/> <!-- HERE CUSTOM -->
+                          · · ·
+                          </head>
 
-                = load way.js from the bottom of the *body* element
-                    - example:
+            = load way.js from the bottom of the *body* element
+                - example:
 
-                          <body>
-                              · · ·
-                              <script src='../way.js'/> <!-- HERE CUSTOM -->
-                              </body>
+                      <body>
+                          · · ·
+                          <script src='../way.js'/> <!-- HERE CUSTOM -->
+                          </body>
 
 
                                      Copyright © 2017-2018 Michael Allan and contributors.  Licence MIT.
