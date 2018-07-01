@@ -24,7 +24,7 @@ wayic.cast/doc.task - Documentation in rough
                     ( http://reluk.ca/project/wayic/script/doc.task § waylink § target nodes
                 - no actual commitment declaration (no corresponding source node) is required
                     ( http://reluk.ca/project/wayic/script/doc.task § commitment declaration
-                    - though typically there'd be one or more of these
+                    - though a typical waycast would have at least one
     [ ⤒ maximal
         - allowed form of the waycast
             * directories
@@ -45,9 +45,10 @@ wayic.cast/doc.task - Documentation in rough
             * way declaration documents
                 ( ./way_declaration_document
             * uniquely personal files
+                ( cf. wayic.copy § uniquely personal lines of text
                 - private or personally customized content
                 - though the bulk of content is expected to be literally shareable in common with others
-                    - there's no use in trying to restrict what isn't
+                    - there is no use in trying to restrict what is not
             * anything else that reason demands
                 ( cf. 'catch all'
                 - I would document the reason
