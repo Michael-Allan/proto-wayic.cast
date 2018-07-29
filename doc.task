@@ -1,11 +1,11 @@
 wayic.cast/doc.task - Documentation in rough
 
-    ____________________________________________________________________________________________________
-    architectural import`
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Architectural import`
     < http://reluk.ca/project/wayic/architecture/doc.task § wayic architecture = waycast form
 
-    ____________________________________________________________________________________________________
-    design constraints`
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Design constraints`
     [ ⤓ minimal
         - necessary form of the waycast
         * /way.xht
@@ -75,8 +75,8 @@ wayic.cast/doc.task - Documentation in rough
             * anything that is better (or just as well) stored outside the waycast
                 ( cf. 'catch all'
 
-    ____________________________________________________________________________________________________
-    personal configuration`
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Personal configuration`
     [ way declaration document
         - the web view of each way declaration document is configured by these files
           located in the base directory of the waycast
