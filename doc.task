@@ -21,7 +21,7 @@ wayic.cast/doc.task - Documentation in rough
                     ( http://reluk.ca/project/wayic/intercast/ § *patch* element
             * commitment
                 - the minimum here is a waylink target node with an *id* attribute of 'commitment'
-                    ( http://reluk.ca/project/wayic/script/doc.task § waylink § target nodes
+                    ( http://reluk.ca/project/wayic/script/doc.task § Waylinkage § target node
                 - no actual commitment declaration (no corresponding source node) is required
                     ( http://reluk.ca/project/wayic/script/doc.task § commitment declaration
                     - though a typical waycast would have at least one
