@@ -13,16 +13,23 @@ wayic.cast/doc.task - Documentation in rough
                 ( root#root_way_declaration_document
             - its purpose is to declare in wayscript form both the way and the commitment to act on it
             * way
-                - a minimal way declaration comprises a root element in the form of an intercast waylink
+                - a minimal way declaration comprises a root element in the form of an intercast joint
                     ( root#root_element
-                    ( http://reluk.ca/project/wayic/intercast/ § intercast waylink
+                    ( http://reluk.ca/project/wayic/intercast/ § Intercast joint
+                    = clarify the form
+                        - a joint has *two* elements, not one
+                    = verify that it meets the formal contraints
+                        - e.g. of the root element and joint elements
+                    = verify that the subjoint elements would be on way
+                        - covered that is by the definition of "on way"
                 - this is also a typical way declaration, though not infrequently
                   it would be accompanied by the declaration of one or more variant waybits, too
                     ( http://reluk.ca/project/wayic/intercast/ § *patch* element
             * commitment
-                - the minimum here is a waylink target node with an *id* attribute of 'commitment'
-                    ( http://reluk.ca/project/wayic/script/doc.task § Waylinkage § target node
-                - no actual commitment declaration (no corresponding source node) is required
+                - the minimum here is a waybit with an *id* attribute of 'commitment'
+                    - thereby potentially subjoining
+                        ( http://reluk.ca/project/wayic/script/doc.task § Subjoining waybit
+                - no corresponding jointer (no actual commitment declaration) is required
                     ( http://reluk.ca/project/wayic/script/doc.task § commitment declaration
                     - though a typical waycast would have at least one
     [ ⤒ maximal
@@ -34,7 +41,7 @@ wayic.cast/doc.task - Documentation in rough
                         - not merely its declaration
                     ( in other words
                         - looking at the extreme case
-                        - a way declaration comprising a single intercast waylink (§ minimal § way)
+                        - a way declaration comprising a single intercast joint (§ minimal § way)
                           nevertheless resolves to a way definition that is structured by all
                           remote directories which the link entails
                 - purpose: orientation
