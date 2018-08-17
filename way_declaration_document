@@ -11,7 +11,8 @@
                   way declaration document</a></h2>
     <ul>
         <li>
-            a file named ‘way.xht’ located in a <a href='waycast'>waycast</a> directory
+            a <a href='http://reluk.ca/project/wayic/script/wayscript_element#wayscript'>
+            wayscript</a> document formed by a <a href='waycast'>waycast</a> file named ‘way.xht’
             </li>
         </ul>
     </section>

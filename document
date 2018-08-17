@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <html xml:lang='en-CA' xmlns='http://www.w3.org/1999/xhtml'>
     <head>
-        <title>‘root’</title>
+        <title>‘document’</title>
         </head>
     <body>
 
 
-<section id='root'>
-    <h2>     root</h2>
+<section id='document'>
+    <h2>     document</h2>
     <ul>
         <li>
             as per
-            <cite><a href='https://en.wiktionary.org/wiki/root'>
-                           https://en.wiktionary.org/wiki/root</a></cite>
+            <cite><a href='https://en.wiktionary.org/wiki/document'>
+                           https://en.wiktionary.org/wiki/document</a></cite>
             </li>
         </ul>
     </section>
@@ -21,8 +21,8 @@
         <a href='waycast_root_document#waycast_root_document'
           rel='content-repository'>content</a>
         </section>
-    <section id='waycast_root'>
-        <a href='waycast_root#waycast_root'
+    <section id='way_declaration_document'>
+        <a href='way_declaration_document#way_declaration_document'
           rel='content-repository'>content</a>
         </section>
     </section>
