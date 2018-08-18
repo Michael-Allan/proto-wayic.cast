@@ -37,16 +37,6 @@ wayic.cast/doc.task - Documentation in rough
         - allowed form of the waycast
             * directories
                 ( aka 'folders'
-                - gross, ad hoc structuring of way definitions
-                    - the full definition is so structured
-                        - not merely its declaration
-                    ( in other words
-                        - looking at the extreme case
-                        - a way declaration comprising a single intercast joint (§ minimal § way)
-                          nevertheless resolves to a way definition that is structured by all
-                          remote directories which the link entails
-                - purpose: orientation
-                    - the name and path of a directory reveals in part the context of its wayic content
             * README files
                 - purpose: clarity
                     - enabling the waycast to describe itself for sake of clarifying the general way form
@@ -98,14 +88,14 @@ wayic.cast/doc.task - Documentation in rough
             - and the default view shown to others
         * usage instructions for a way declaration document
             - working example
-                ( source: https://github.com/Michael-Allan/waycast/blob/master/autonomist/way.xht
-                ( live: http://reluk.ca/project/waycast/autonomist/way.xht
+                ( source: https://github.com/Michael-Allan/waycast/blob/master/constraints.xht
+                ( live: http://reluk.ca/project/waycast/constraints.xht
             = link to way.css from the *head* element of the document
                 - example:
 
                       <head>
                           · · ·
-                          <link rel='stylesheet' href='../way.css'/> <!-- HERE CUSTOM -->
+                          <link rel='stylesheet' href='way.css'/> <!-- HERE CUSTOM -->
                           · · ·
                           </head>
 
@@ -114,7 +104,7 @@ wayic.cast/doc.task - Documentation in rough
 
                       <body>
                           · · ·
-                          <script src='../way.js'/> <!-- HERE CUSTOM -->
+                          <script src='way.js'/> <!-- HERE CUSTOM -->
                           </body>
 
 
