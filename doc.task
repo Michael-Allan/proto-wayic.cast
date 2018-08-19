@@ -21,13 +21,13 @@ wayic.cast/doc.task - Documentation in rough
         + a waycast root document
             ( § Waycast root document
             - containing a way declaration
-                - a minimal declaration comprises a waycast root in the form of an intercast joint
-                    ( ./waycast_root
+                - a minimal declaration comprises a waycast root element in the form of an intercast joint
+                    ( ./waycast_root_element
                     ( http://reluk.ca/project/wayic/intercast/ § Intercast joint
                     = clarify the form
                         - a joint has *two* elements, not one
                     = verify that it meets the formal contraints
-                        - e.g. of the waycast root, and of joint elements
+                        - e.g. of the waycast root element, and of joint elements
                     = verify that the subjoint elements would be on way
                         - covered that is by the definition of "on way"
                 - this is also a typical way declaration, though not infrequently

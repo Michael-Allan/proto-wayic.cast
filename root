@@ -17,12 +17,16 @@
         </ul>
     </section>
 <section id='xrefs' style='border-top:thin solid'>
+    <section id='waycast_root'>
+        <a href='waycast_root#waycast_root'
+          rel='content-repository'>content</a>
+        </section>
     <section id='waycast_root_document'>
         <a href='waycast_root_document#waycast_root_document'
           rel='content-repository'>content</a>
         </section>
-    <section id='waycast_root'>
-        <a href='waycast_root#waycast_root'
+    <section id='waycast_root_element'>
+        <a href='waycast_root_element#waycast_root_element'
           rel='content-repository'>content</a>
         </section>
     </section>

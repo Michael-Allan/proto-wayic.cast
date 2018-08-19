@@ -12,8 +12,7 @@
     <ul>
         <li>
             the <a href='way_declaration_document'>way declaration document</a>
-            formed by waycast file <code>/way.xht</code>,
-            which contains the <a href='waycast_root'>waycast root</a>
+            formed by waycast file <code><a href='waycast_root'>/</a>way.xht</code>
             </li>
         </ul>
     </section>

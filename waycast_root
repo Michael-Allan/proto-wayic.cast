@@ -11,9 +11,7 @@
                   waycast root</a></h2>
     <ul>
         <li>
-            the <a href='http://reluk.ca/project/wayic/script/wayscript_element'>
-            wayscript element</a> at waycast location <code>/way.xht#root</code>,
-            which is inherently <a href='http://reluk.ca/project/wayic/lex/way#on_way'>on way</a>
+            the base directory of a waycast
             </li>
         </ul>
     </section>
