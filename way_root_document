@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html xml:lang='en-CA' xmlns='http://www.w3.org/1999/xhtml'>
+    <head>
+        <title>‘way root document’</title>
+        </head>
+    <body>
+
+
+<section      id='way_root_document'>
+    <h2><a href='#way_root_document'>
+                  way root document</a></h2>
+    <ul>
+        <li>
+            the <a href='way_declaration_document'>
+            way declaration document</a> formed by waycast file <code><a href='waycast_root_directory'>
+            /</a>way.xht</code>
+            </li>
+        </ul>
+    </section>
+
+
+        </body>
+    </html>

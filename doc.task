@@ -18,28 +18,8 @@ wayic.cast/doc.task - Documentation in rough
                         - namely application/xhtml+xml
                 - so they would load it into the DOM as an XMLDocument
                   which could break co-loaded (JavaScript) programs that expect an HTMLDocument
-        + a waycast root document
-            ( § Waycast root document
-            - containing a way declaration
-                - a minimal declaration comprises a waycast root element in the form of an intercast joint
-                    ( ./waycast_root_element
-                    ( http://reluk.ca/project/wayic/intercast/ § Intercast joint
-                    = clarify the form
-                        - a joint has *two* elements, not one
-                    = verify that it meets the formal contraints
-                        - e.g. of the waycast root element, and of joint elements
-                    = verify that the subjoint elements would be on way
-                        - covered that is by the definition of "on way"
-                - this is also a typical way declaration, though not infrequently
-                  it would be accompanied by the declaration of one or more variant waybits, too
-                    ( http://reluk.ca/project/wayic/intercast/ § *patch* element
-            - containing a commitment declaration
-                - the minimum here is a waybit with an *id* attribute of ‘commitment’
-                    - thereby potentially subjoining
-                        ( http://reluk.ca/project/wayic/script/doc.task § Subjoining waybit
-                - no corresponding jointer (no actual commitment declaration) is required
-                    ( http://reluk.ca/project/wayic/script/doc.task § commitment declaration
-                    - though a typical waycast would have at least one
+        + a way root document
+            ( § Way root document § ⤓ minimal content
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Personal configuration`
@@ -76,16 +56,33 @@ wayic.cast/doc.task - Documentation in rough
                           </body>
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
-    Waycast root document`
-    ( ./waycast_root_document
+    Way root document`
+    ( ./way_root_document
     - waycast file /way.xht
         ( name: way.xht
         ( location: base directory of the waycast
-    - content
-        - realizes the purpose of the waycast for a given waycaster
-          in declaring both his way and his commitment to act on it
-        * way declaration
-        * commitment declaration
+    - realizes the purpose of the waycast for a given waycaster
+      in declaring both his way and his commitment to act on it
+    [ ⤓ minimal content
+        + a way declaration
+            - a minimal declaration comprises a way root element in the form of an intercast joint
+                ( http://reluk.ca/project/wayic/script/way_root_element
+                ( http://reluk.ca/project/wayic/intercast/ § Intercast joint
+                = clarify the form
+                    - a joint has *two* elements, not one
+                = verify that it meets the formal contraints
+                    - e.g. of the way root element, and of joint elements
+                = verify that the subjoint elements would be on way
+                    - covered that is by the definition of "on way"
+            - this is also a typical way declaration, though not infrequently
+              it would be accompanied by the declaration of one or more variant waybits, too
+                ( http://reluk.ca/project/wayic/intercast/ § *patch* element
+        + a commitment waybit
+            ( http://reluk.ca/project/wayic/script/doc.task § commitment waybit
+            - the minimum here is a waybit with an *id* attribute of ‘commitment’
+            - no actual commitment declaration is required
+                ( http://reluk.ca/project/wayic/script/doc.task § Commitment declaration
+                - though a typical waycast would have at least one
 
 
                                      Copyright © 2017-2018 Michael Allan and contributors.  Licence MIT.

@@ -8,17 +8,10 @@
 
 <section id='document'>
     <h2>     document</h2>
-    <ul>
-        <li>
-            as per
-            <cite><a href='https://en.wiktionary.org/wiki/document'>
-                           https://en.wiktionary.org/wiki/document</a></cite>
-            </li>
-        </ul>
     </section>
 <section id='xrefs' style='border-top:thin solid'>
-    <section id='waycast_root_document'>
-        <a href='waycast_root_document#waycast_root_document'
+    <section id='way_root_document'>
+        <a href='way_root_document#way_root_document'
           rel='content-repository'>content</a>
         </section>
     <section id='way_declaration_document'>
