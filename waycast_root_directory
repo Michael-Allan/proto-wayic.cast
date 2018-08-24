@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <html xml:lang='en-CA' xmlns='http://www.w3.org/1999/xhtml'>
     <head>
-        <title>‘waycast root’</title>
+        <title>‘waycast root directory’</title>
         </head>
     <body>
 
 
-<section      id='waycast_root'>
-    <h2><a href='#waycast_root'>
-                  waycast root</a></h2>
+<section      id='waycast_root_directory'>
+    <h2><a href='#waycast_root_directory'>
+                  waycast root directory</a></h2>
     <ul>
         <li>
             the base directory of a waycast
