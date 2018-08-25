@@ -62,7 +62,7 @@ wayic.cast/doc.task - Documentation in rough
         ( name: way.xht
         ( location: base directory of the waycast
     - realizes the purpose of the waycast for a given waycaster
-      in declaring both his way and his commitment to act on it
+      in declaring both his way and his active commitments to it
     [ ⤓ minimal content
         + a way declaration
             - a minimal declaration comprises a way root element in the form of an intercast joint
@@ -77,8 +77,8 @@ wayic.cast/doc.task - Documentation in rough
             - this is also a typical way declaration, though not infrequently
               it would be accompanied by the declaration of one or more variant waybits, too
                 ( http://reluk.ca/project/wayic/intercast/ § *patch* element
-        + a commitment waybit
-            ( http://reluk.ca/project/wayic/script/doc.task § commitment waybit
+        + a resolve waybit
+            ( http://reluk.ca/project/wayic/script/doc.task § resolve waybit
             - the minimum here is a waybit with an *id* attribute of ‘commitment’
             - no actual commitment declaration is required
                 ( http://reluk.ca/project/wayic/script/doc.task § Commitment declaration
