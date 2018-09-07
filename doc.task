@@ -1,10 +1,6 @@
 wayic.cast/doc.task - Documentation in rough
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
-    Architectural import`
-    < http://reluk.ca/project/wayic/architecture/doc.task § wayic architecture = waycast form
-
-    ────────────────────────────────────────────────────────────────────────────────────────────────────
     Design constraints`
     [ ⤓ minimal
         - the necessary form of a waycast
@@ -25,21 +21,22 @@ wayic.cast/doc.task - Documentation in rough
     Personal configuration`
     [ web view of way declaration documents
         - the web view of each way declaration document is configured by these files
-          located in the base directory of the waycast
+          located in the waycast root directory
             * way.css
                 - personal style sheet
                 ( example: http://reluk.ca/project/waycast/way.css
             * way.js
                 - personal configuration program
                 ( example: http://reluk.ca/project/waycast/way.js
-        - they configure the view shown to the waycaster
+        - they configure both the view shown to the waycaster
             - and the default view shown to others
         + usage instructions for a way declaration document
-            - working example
-                ( source: https://github.com/Michael-Allan/waycast/blob/master/constraints.xht
-                ( live: http://reluk.ca/project/waycast/constraints.xht
-            = link to way.css from the *head* element of the document
-                - example:
+            - any reference to a personal configuration file must be a relative path reference
+                ( relative-path reference, https://tools.ietf.org/html/rfc3986#section-4.2
+                - meaning that both the *href* and *src* attributes in the examples below must begin
+                  with neither a scheme component (no 'http:' for instance) nor a slash (no leading '/')
+            =1 link to way.css from the *head* element of the document
+                - examples:
 
                       <head>
                           · · ·
@@ -47,20 +44,33 @@ wayic.cast/doc.task - Documentation in rough
                           · · ·
                           </head>
 
-            = load way.js from the bottom of the *body* element
-                - example:
+                    - or, from a subdirectory:
+                        ( i.e. your way declaration document is not in the waycast root directory
+
+                          <link rel='stylesheet' href='../../way.css'/>  · · ·
+
+            =2 load way.js from the bottom of the *body* element
+                - examples:
 
                       <body>
                           · · ·
                           <script src='way.js'/> <!-- HERE CUSTOM -->
                           </body>
 
+                    - or, from a subdirectory:
+
+                          <script src='../../way.js'/>  · · ·
+
+            - working example
+                ( source: https://github.com/Michael-Allan/waycast/blob/master/constraints.xht
+                ( live: http://reluk.ca/project/waycast/constraints.xht
+
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Way root document`
     ( ./way_root_document
     - waycast file /way.xht
         ( name: way.xht
-        ( location: base directory of the waycast
+        ( location: waycast root directory
     - realizes the purpose of the waycast for a given waycaster
       in declaring both his way and his active commitments to it
     [ ⤓ minimal content
