@@ -1,6 +1,65 @@
 wayic.cast/doc.task - Documentation in rough
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Configuration of the waycast`
+    [ waycast.json
+        - general (declarative) configuration file
+        - format: JSON
+            ( http://www.json.org/
+    - personal configuration of the web view of each way declaration document
+        - these files (below) configure both the view shown to the waycaster
+            - and the default view shown to others
+        [ way_declaration_document.css
+            - personal style sheet
+              for the web view of each way declaration document
+            - format: CSS
+                ( https://www.w3.org/TR/CSS/
+            - example
+                < http://reluk.ca/project/waycast/way_declaration_document.css
+        [ way_declaration_document.js
+            - personal configuration program
+              for the web view of each way declaration document
+            - format: JavaScript
+                ( https://github.com/tc39/ecma262#ecmascript
+            - example
+                < http://reluk.ca/project/waycast/way_declaration_document.js
+        + usage instructions for a way declaration document
+            =1 link to way_declaration_document.css from the *head* element of the document
+                - link reference format (*href* attribute): relative-path reference
+                    ( relative-path reference, https://tools.ietf.org/html/rfc3986#section-4.2, -3.3
+                - examples:
+
+                      <head>
+                          · · ·
+                          <link rel='stylesheet' href='way_declaration_document.css'/> <!-- HERE CUSTOM -->
+                          · · ·
+                          </head>
+
+                    - or, from a subdirectory of the waycast root directory
+                        ( i.e. when the way declaration document is sub-located
+
+                          <link rel='stylesheet' href='../../way_declaration_document.css'/>  · · ·
+
+            =2 load way_declaration_document.js from the bottom of the *body* element
+                - load reference format (*src* attribute): relative-path reference
+                    ( relative-path reference, https://tools.ietf.org/html/rfc3986#section-4.2, -3.3
+                - examples:
+
+                      <body>
+                          · · ·
+                          <script src='way_declaration_document.js'/> <!-- HERE CUSTOM -->
+                          </body>
+
+                    - or, from a subdirectory of the waycast root directory
+                        ( i.e. when the way declaration document is sub-located
+
+                          <script src='../../way_declaration_document.js'/>  · · ·
+
+            - working example
+                ( source: https://github.com/Michael-Allan/waycast/blob/master/constraints.xht
+                ( live: http://reluk.ca/project/waycast/constraints.xht
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
     Design constraints`
     [ ⤓ minimal
         - the necessary form of a waycast
@@ -16,54 +75,6 @@ wayic.cast/doc.task - Documentation in rough
                   which could break co-loaded (JavaScript) programs that expect an HTMLDocument
         + a way root document
             ( § Way root document § ⤓ minimal content
-
-    ────────────────────────────────────────────────────────────────────────────────────────────────────
-    Personal configuration`
-    [ web view of way declaration documents
-        - the web view of each way declaration document is configured by these files
-          located in the waycast root directory
-            * way.css
-                - personal style sheet
-                ( example: http://reluk.ca/project/waycast/way.css
-            * way.js
-                - personal configuration program
-                ( example: http://reluk.ca/project/waycast/way.js
-        - they configure both the view shown to the waycaster
-            - and the default view shown to others
-        + usage instructions for a way declaration document
-            - any reference to a personal configuration file must be a relative path reference
-                ( relative-path reference, https://tools.ietf.org/html/rfc3986#section-4.2
-                - meaning that both the *href* and *src* attributes in the examples below must begin
-                  with neither a scheme component (no 'http:' for instance) nor a slash (no leading '/')
-            =1 link to way.css from the *head* element of the document
-                - examples:
-
-                      <head>
-                          · · ·
-                          <link rel='stylesheet' href='way.css'/> <!-- HERE CUSTOM -->
-                          · · ·
-                          </head>
-
-                    - or, from a subdirectory:
-                        ( i.e. your way declaration document is not in the waycast root directory
-
-                          <link rel='stylesheet' href='../../way.css'/>  · · ·
-
-            =2 load way.js from the bottom of the *body* element
-                - examples:
-
-                      <body>
-                          · · ·
-                          <script src='way.js'/> <!-- HERE CUSTOM -->
-                          </body>
-
-                    - or, from a subdirectory:
-
-                          <script src='../../way.js'/>  · · ·
-
-            - working example
-                ( source: https://github.com/Michael-Allan/waycast/blob/master/constraints.xht
-                ( live: http://reluk.ca/project/waycast/constraints.xht
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Way root document`
