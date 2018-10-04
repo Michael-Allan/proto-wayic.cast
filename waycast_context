@@ -17,11 +17,11 @@
         <li>
             The URI <a href='https://tools.ietf.org/html/rfc3986#section-5'>
             reference resolution</a> context bound by a waycast,
-            wherein the leading ‘/’ of any <a href='https://tools.ietf.org/html/rfc3986#section-3.3'>
-            path-absolute</a>, <a href='https://tools.ietf.org/html/rfc3986#section-4.2'>
-            relative reference</a> binds not
-            to the <a href='https://tools.ietf.org/html/rfc3986#section-3'>
-            authority</a>, but to the root directory of the waycast
+            wherein the leading ‘/’ of any <a href='https://tools.ietf.org/html/rfc3986#section-4.2'>
+            relative reference</a> with a <a href='https://tools.ietf.org/html/rfc3986#section-3.3'>
+            path-absolute</a> path component binds not
+            to the root directory of the <a href='https://tools.ietf.org/html/rfc3986#section-3'>
+            authority</a>, but that of the waycast
             </li>
         </ul>
     </section>
