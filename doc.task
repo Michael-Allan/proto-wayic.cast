@@ -1,63 +1,24 @@
 wayic.cast/doc.task - Documentation in rough
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
-    Configuration of the waycast`
-    [ waycast.json
-        - general (declarative) configuration file
-        - format: JSON
-            ( http://www.json.org/
-    - personal configuration of the web view of each way declaration document
-        - these files (below) configure both the view shown to the waycaster
-            - and the default view shown to others
-        [ way_declaration_document.css
-            - personal style sheet
-              for the web view of each way declaration document
-            - format: CSS
-                ( https://www.w3.org/TR/CSS/
-            - example
-                < http://reluk.ca/project/waycast/way_declaration_document.css
-        [ way_declaration_document.js
-            - personal configuration program
-              for the web view of each way declaration document
-            - format: JavaScript
-                ( https://github.com/tc39/ecma262#ecmascript
-            - example
-                < http://reluk.ca/project/waycast/way_declaration_document.js
-        + usage instructions for a way declaration document
-            =1 link to way_declaration_document.css from the *head* element of the document
-                - link reference format (*href* attribute): relative-path reference
-                    ( relative-path reference, https://tools.ietf.org/html/rfc3986#section-4.2, -3.3
-                - examples:
-
-                      <head>
-                          · · ·
-                          <link rel='stylesheet' href='way_declaration_document.css'/> <!-- HERE CUSTOM -->
-                          · · ·
-                          </head>
-
-                    - or, from a subdirectory of the waycast root directory
-                        ( i.e. when the way declaration document is sub-located
-
-                          <link rel='stylesheet' href='../../way_declaration_document.css'/>  · · ·
-
-            =2 load way_declaration_document.js from the bottom of the *body* element
-                - load reference format (*src* attribute): relative-path reference
-                    ( relative-path reference, https://tools.ietf.org/html/rfc3986#section-4.2, -3.3
-                - examples:
-
-                      <body>
-                          · · ·
-                          <script src='way_declaration_document.js'/> <!-- HERE CUSTOM -->
-                          </body>
-
-                    - or, from a subdirectory of the waycast root directory
-                        ( i.e. when the way declaration document is sub-located
-
-                          <script src='../../way_declaration_document.js'/>  · · ·
-
-            - working example
-                ( source: https://github.com/Michael-Allan/waycast/blob/master/constraints.xht
-                ( live: http://reluk.ca/project/waycast/constraints.xht
+    Configuration of a waycast`
+    * waycast root directory
+        - configuration placed in files of the waycast root directory
+        + waycast.json
+            - general (declarative) configuration file
+            - format: JSON
+                ( http://www.json.org/
+            < waycast_names
+                ( q.v. in http://reluk.ca/project/wayic/web/doc.task § Waycast reference
+        + way_declaration_document.css
+            < see wayic.web § Configuration of a waycast
+                ( http://reluk.ca/project/wayic/web/doc.task
+        + way_declaration_document.js
+            < see wayic.web § Configuration of a waycast
+                ( http://reluk.ca/project/wayic/web/doc.task
+    * way declaration document
+        < see wayic.web § Configuration of a waycast
+            ( http://reluk.ca/project/wayic/web/doc.task
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Design constraints`
@@ -75,6 +36,42 @@ wayic.cast/doc.task - Documentation in rough
                   which could break co-loaded (JavaScript) programs that expect an HTMLDocument
         + a way root document
             ( § Way root document § ⤓ minimal content
+        + relative referencing bound by the waycast
+            - all relative referencing in a waycast is bound by the waycast
+            - ensuring that no reference resolves to an extracast referent
+            ∴ so bound
+                ∵ unbounded relative references would be liable to breakage
+                    ∵ the waycast is portable
+                        ∵ need basic utility
+                        ∵ need user freedom
+                            ∵ wayic.architec § Fi Maximization of user freedom
+                                ( http://reluk.ca/project/wayic/architec/doc.task
+                    ∵ the waycast is copyable
+                        ∵ wayic.architec § Fo Maximization of system availability to non-users
+                            ( http://reluk.ca/project/wayic/architec/doc.task
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Formally intracast reference`
+    - a relative reference that is formally self constrained to the boundary of the referring waycast
+        ( e.g. in compliance with § Design constraints § relative referencing bound by the waycast
+    < see also subtype (wayic.intercast §) import reference
+        ( http://reluk.ca/project/wayic/intercast/doc.task
+    - given its (§) basic form and (§) resolution context
+        - a formally intracast reference needs no further bounds checking
+            ( e.g. by a wayscript processor
+        - its form alone constrains it to the waycast boundary
+        - itself proof against an extracast referent
+    - hence references of this type are *formally* intracast
+    * form
+        - a relative reference without a dot segment
+            ( relative reference, https://tools.ietf.org/html/rfc3986#section-4.2
+            ( dot-segment,        https://tools.ietf.org/html/rfc3986#section-3.3
+    * resolution context
+        - waycast context
+            ( ./waycast_context
+        - whereby a leading '/' (absolute path) grounds the reference on the waycast root directory
+            ( path-absolute, https://tools.ietf.org/html/rfc3986#section-3.3
+            ( ./waycast_root_directory
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Way root document`
