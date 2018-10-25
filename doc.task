@@ -93,7 +93,7 @@ wayic.cast/doc.task - Documentation in rough
                 = verify that the subjoint elements would be on way
                     - covered that is by the definition of "on way"
             - this is also a typical way declaration, though not infrequently
-              it would be accompanied by the declaration of one or more variant waybits, too
+              it would be amended by patching
                 ( http://reluk.ca/project/wayic/intercast/ § *patch* element
         + a resolve waybit
             ( http://reluk.ca/project/wayic/script/doc.task § resolve waybit
