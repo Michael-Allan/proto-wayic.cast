@@ -74,6 +74,24 @@ wayic.cast/doc.task - Documentation in rough
             ( ./waycast_root_directory
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Public identification`
+    - form
+        ( [EBN]
+
+          waycast public identifier = ? as per http://reluk.ca/project/wayic/cast/project.task
+            § waycast relative references and waycast public locations § waycast public location ?;
+
+          waybit public identifier =
+            waycast public identifier, dotless relative path, '#', extended element reference ;
+
+              dotless relative path = ? a relative-path reference without a dot segment,
+                as per https://tools.ietf.org/html/rfc3986#section-4.2, -3.3 ?;
+
+              extended element reference = ? as per
+                http://reluk.ca/project/wayic/script/doc.task § Extended element referencing ?;
+
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
     Way root document`
     ( ./way_root_document
     - waycast file /way.xht
@@ -101,6 +119,15 @@ wayic.cast/doc.task - Documentation in rough
             - no actual commitment declaration is required
                 ( http://reluk.ca/project/wayic/script/doc.task § Commitment declaration
                 - though a typical waycast would have at least one
+
+
+    ════════════════════════════════════════════════════════════════════════════════════════════════════
+    Note`
+
+    [EBN]  Extended Backus-Naur syntax notation, ISO/IEC 14977.
+            ( http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html
+            ( https://www.cl.cam.ac.uk/~mgk25/iso-14977.pdf
+            ( summary, https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form
 
 
                                      Copyright © 2017-2018 Michael Allan and contributors.  Licence MIT.
