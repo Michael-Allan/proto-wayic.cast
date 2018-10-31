@@ -114,13 +114,14 @@ wayic.cast/doc.task - Documentation in rough
                 - though a typical waycast would have at least one
 
 
-    ════════════════════════════════════════════════════════════════════════════════════════════════════
-    Note`
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+// N o t e
+/
     [EBN]  Extended Backus-Naur syntax notation, ISO/IEC 14977.
             ( http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html
             ( https://www.cl.cam.ac.uk/~mgk25/iso-14977.pdf
             ( summary, https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form
+
 
 
                                      Copyright © 2017-2018 Michael Allan and contributors.  Licence MIT.
