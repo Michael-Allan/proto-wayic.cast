@@ -36,10 +36,10 @@ wayic.cast/doc.task - Documentation in rough
                   which could break co-loaded (JavaScript) programs that expect an HTMLDocument
         + a way root document
             ( § Way root document § ⤓ minimal content
-        + relative referencing bound by the waycast
-            - all relative referencing in a waycast is bound by the waycast
+        + relative referencing bounded by the waycast
+            - all relative referencing in a waycast is bounded by the waycast
             - ensuring that no reference resolves to an extracast referent
-            ∴ so bound
+            ∴ so bounded
                 ∵ unbounded relative references would be liable to breakage
                     ∵ the waycast is portable
                         ∵ need basic utility
@@ -53,7 +53,7 @@ wayic.cast/doc.task - Documentation in rough
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Formally intracast reference`
     - a relative reference that is formally self constrained to the boundary of the referring waycast
-        ( e.g. in compliance with § Design constraints § relative referencing bound by the waycast
+        ( e.g. in compliance with § Design constraints § relative referencing bounded by the waycast
     < see also subtype (wayic.intercast §) import reference
         ( http://reluk.ca/project/wayic/intercast/doc.task
     - given its (§) basic form and (§) resolution context

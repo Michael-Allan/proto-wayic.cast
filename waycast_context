@@ -11,12 +11,12 @@
                   waycast context</a></h2>
     <ul>
         <li>
-            The context of the file system space bound by a <a href='waycast_root_directory'>
+            The context of the file system space bounded by a <a href='waycast_root_directory'>
             waycast root directory</a>
             </li>
         <li>
             The URI <a href='https://tools.ietf.org/html/rfc3986#section-5'>
-            reference resolution</a> context bound by a waycast,
+            reference resolution</a> context bounded by a waycast,
             wherein the leading ‘/’ of any <a href='https://tools.ietf.org/html/rfc3986#section-4.2'>
             relative reference</a> with a <a href='https://tools.ietf.org/html/rfc3986#section-3.3'>
             path-absolute</a> path component binds not
