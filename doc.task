@@ -54,24 +54,40 @@ wayic.cast/doc.task - Documentation in rough
     Formally intracast reference`
     - a relative reference that is formally self constrained to the boundary of the referring waycast
         ( e.g. in compliance with § Design constraints § relative referencing bounded by the waycast
-    < see also subtype (wayic.intercast §) import reference
-        ( http://reluk.ca/project/wayic/intercast/doc.task
     - given its (§) basic form and (§) resolution context
         - a formally intracast reference needs no further bounds checking
             ( e.g. by a wayscript processor
         - its form alone constrains it to the waycast boundary
         - itself proof against an extracast referent
     - hence references of this type are *formally* intracast
-    * form
-        - a relative reference without a dot segment
-            ( relative reference, https://tools.ietf.org/html/rfc3986#section-4.2
-            ( dot-segment,        https://tools.ietf.org/html/rfc3986#section-3.3
-    * resolution context
-        - waycast context
+    + typology
+        * formally intracast reference
+            * import reference
+                ( http://reluk.ca/project/wayic/intercast/doc.task
+    + form
+        ( [EBN]
+
+          formally intracast reference = ? a relative reference without a dot segment,
+            as per https://tools.ietf.org/html/rfc3986#section-4.2 (relative-ref)
+               and https://tools.ietf.org/html/rfc3986#section-3.3 (dot-segment) ?;
+
+          formally intracast reference with fragment =
+            dotless relative part, [ '?', query ], '#', fragment ;
+
+              dotless relative part = ? a relative part without a dot segment,
+                as per https://tools.ietf.org/html/rfc3986#section-4.2 (relative-part)
+                   and https://tools.ietf.org/html/rfc3986#section-3.3 (dot-segment) ?;
+
+              query = ? as per https://tools.ietf.org/html/rfc3986#section-3.4 ?;
+
+              fragment = ? as per https://tools.ietf.org/html/rfc3986#section-3.5 ?;
+
+    + resolution
+        - the reference is resolved in waycast context
             ( ./waycast_context
-        - whereby a leading '/' (absolute path) grounds the reference on the waycast root directory
-            ( path-absolute, https://tools.ietf.org/html/rfc3986#section-3.3
-            ( ./waycast_root_directory
+            - whereby a leading '/' (absolute path) grounds the reference on the waycast root directory
+                ( path-absolute, https://tools.ietf.org/html/rfc3986#section-3.3
+                ( ./waycast_root_directory
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Publication of a waycast`
@@ -104,8 +120,8 @@ wayic.cast/doc.task - Documentation in rough
                 = verify that the subjoint elements would be on way
                     - covered that is by the definition of "on way"
             - this is also a typical way declaration, though not infrequently
-              it would be amended by patching
-                ( http://reluk.ca/project/wayic/intercast/ § *patch* element
+              it would be amended by stemmaplasty
+                ( stemmaplasty, http://reluk.ca/project/wayic/origins/doc.task
         + a resolve waybit
             ( http://reluk.ca/project/wayic/script/doc.task § resolve waybit
             - the minimum here is a waybit with an *id* attribute of ‘commitment’
