@@ -111,7 +111,6 @@ wayic.cast/doc.task - Documentation in rough
     [ ⤓ minimal content
         + a way declaration
             - a minimal declaration comprises a way root element in the form of an intercast joint
-                ( http://reluk.ca/project/wayic/script/way_root_element
                 ( http://reluk.ca/project/wayic/intercast/ § Intercast joint
                 = clarify the form
                     - a joint has *two* elements, not one
@@ -121,7 +120,6 @@ wayic.cast/doc.task - Documentation in rough
                     - covered that is by the definition of "on way"
             - this is also a typical way declaration, though not infrequently
               it would be amended by stemmaplasty
-                ( stemmaplasty, http://reluk.ca/project/wayic/origins/doc.task
         + a resolve waybit
             ( http://reluk.ca/project/wayic/script/doc.task § resolve waybit
             - the minimum here is a waybit with an *id* attribute of ‘commitment’
