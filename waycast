@@ -12,16 +12,18 @@
     <ul>
         <li>
             (noun) a <a href='http://reluk.ca/project/wayic/script/wayscript'>
-            wayscript</a> coded, file based <a href='personal_way_declaration'>
+            wayscript</a> coded, computer-file based, <a href='personal_way_declaration'>
             personal way declaration</a> and the person’s active commitments to it
             <!-- from http://reluk.ca/project/waycast/constraints.xht#waycast_defined -->
             </li>
         <li>
-            the genetic constitution of a <a href='http://reluk.ca/project/wayic/way'>way</a>
+            a directory containing the <a href='http://reluk.ca/project/wayic/script/source_code'>
+            source code</a> of a <a href='http://reluk.ca/project/wayic/way'>
+            way</a>
             <ul>
                 <li>
                     the <a href='http://reluk.ca/project/wayic/wayical'>
-                    wayical</a> analogue of a genotype
+                    wayical</a> analogue of a nucleoid or nucleolus in a unicellular organism
                     </li>
                 </ul>
             </li>
