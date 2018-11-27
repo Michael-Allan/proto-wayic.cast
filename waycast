@@ -11,14 +11,14 @@
                   waycast</a></h2>
     <ul>
         <li>
-            (noun) a <a href='http://reluk.ca/project/wayic/script/wayscript'>
-            wayscript</a> coded, computer-file based, <a href='personal_way_declaration'>
+            (noun) a computer-file based, <a href='personal_way_declaration'>
             personal way declaration</a> and the person’s active commitments to it
             <!-- from http://reluk.ca/project/waycast/constraints.xht#waycast_defined -->
             </li>
         <li>
-            a directory containing the <a href='http://reluk.ca/project/wayic/script/source_code'>
-            source code</a> of a <a href='http://reluk.ca/project/wayic/way'>
+            the directory enclosed, <a href='intracast'>
+            intracast</a> <a href='http://reluk.ca/project/wayic/script/waysource'>
+            waysource</a> of a <a href='http://reluk.ca/project/wayic/way'>
             way</a>
             <ul>
                 <li>
