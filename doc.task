@@ -29,8 +29,8 @@ wayic.cast/doc.task - Documentation in rough
             - without it
                 - on requesting the document from a ‘file’ scheme URL
                     - e.g. to view one’s original waycast which is stored on one’s local computer
-                    - browsers would take it as (medium type) text/xml
-                      as opposed to what is proper for wayscript
+                    - browsers would interpret the document as a text/xml media type
+                      as opposed to what is proper for Wayscript
                         - namely application/xhtml+xml
                 - so they would load it into the DOM as an XMLDocument
                   which could break co-loaded (JavaScript) programs that expect an HTMLDocument
@@ -56,7 +56,7 @@ wayic.cast/doc.task - Documentation in rough
         ( e.g. in compliance with § Design constraints § relative referencing bounded by the waycast
     - given its (§) basic form and (§) resolution context
         - a formally intracast reference needs no further bounds checking
-            ( e.g. by a wayscript processor
+            ( e.g. by a waysource processor
         - its form alone constrains it to the waycast boundary
         - itself proof against an extracast referent
     - hence references of this type are *formally* intracast
