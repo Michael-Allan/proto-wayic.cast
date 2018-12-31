@@ -1,5 +1,15 @@
 wayic.cast/doc.task - Documentation in rough
 
+    Waycast`
+    - the waycast
+        ( ./waycast
+    - a principal component of the architecture
+        ( http://reluk.ca/project/wayic/architec/doc.task § Architecture
+    - function
+        - forms architectonic members U (Personally useful)
+          and G (Relating the personal to the endmost goal of the person)
+            ( http://reluk.ca/project/wayic/architec/doc.task § Architectonic
+
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Configuration of a waycast`
     * waycast root directory
@@ -99,6 +109,7 @@ wayic.cast/doc.task - Documentation in rough
           waycast public identifier = ? as per http://reluk.ca/project/wayic/cast/project.task
             § waycast relative references and waycast public locations § waycast public location ?;
 
+  / Waycast ───────────────────────────────────────────────────────────────────────────── see at top ───
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Way root document`
