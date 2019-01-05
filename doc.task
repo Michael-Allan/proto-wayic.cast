@@ -109,6 +109,63 @@ wayic.cast/doc.task - Documentation in rough
           waycast public identifier = ? as per http://reluk.ca/project/wayic/cast/project.task
             § waycast relative references and waycast public locations § waycast public location ?;
 
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Uniquely personal content`
+    ( cf. http://reluk.ca/project/wayic/origins/doc.task § Genotypic content
+    ( cf. http://reluk.ca/w/Category:Draft#Bracket_markers_to_distinguish_meta-content_from_proper_content
+    - waycast content that is improper to all but the waycaster
+        - e.g. because it would sound wrong if others were to speak it
+    - scoping rules
+        - taken in order, these rules determine what text is uniquely personal
+        ! these rules make no sense
+            = sort it out
+        < gross rules
+            +1 include all of the waycast
+            +2 include all lines of the way model
+                - that is, any line of text between (in document order)
+                  the first and last lines (inclusive) of a root waybit
+                - why not outside the model?
+                    - to avoid overdefining the rules below
+                    - to avoid prematurely burdening (and possibly overburdening) the wayscribe
+                      with marking tasks (q.v. below) where the text sharing tools
+                      might never operate
+            - any text *not* included by the rules above is out of scope
+        < fine rules
+            +3 include all lines marked as custom
+                - mark form
+                    ( instructions on writing the custom marks
+                    * single line
+                        - put "HERE CUSTOM" somewhere in the line
+                    * multiple lines
+                        - using two marks
+                        - put "HERE DOWN CUSTOM" somewhere in the top line
+                            - applies from top line (inclusive) down to bottom line (inclusive)
+                            - without a bottom line marked
+                                - applies down to the bottom of the document
+                        - put "HERE UP CUSTOM" somewhere in the bottom line
+                            - applies from bottom line (inclusive) up to top line (inclusive)
+                            - without a top line marked, applies up to the top of the document
+                    * defeating
+                        - how to defeat an already written mark
+                            - e.g. in order to quote a mark
+                        - put elsewhere in the same line a second mark: "HERE CUSTOM"
+                - on the possibility of marking custom mutations and deletions
+                    - as opposed to pure insertions
+                    - there is probably no need also to define CUSTOMIZED and DELETED marks
+                    - a line of text that logically *demands* one to mutate or delete it
+                      should have been marked as a custom line in the first place
+                        - and that would be the correct thing to do after the fact
+                        - while one that merely *allows* for such a change
+                            - e.g. as an expression of disagreement
+                            - is not properly custom
+                            - rather (in this regard) it is a typical line
+            +4 include commitment jointers
+                ( http://reluk.ca/project/wayic/script/doc.task § Commitment declaration
+                - the text between (in document order) the start and end (inclusive)
+                  of each commitment jointer
+            - all text included by the rules above is in scope
+        +5 any text that remains is not uniquely personal
+
   / Waycast ───────────────────────────────────────────────────────────────────────────── see at top ───
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
