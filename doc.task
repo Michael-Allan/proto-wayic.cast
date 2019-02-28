@@ -19,7 +19,7 @@ wayic.cast/doc.task - Documentation in rough
             - format: JSON
                 ( http://www.json.org/
             < waycast_names
-                ( q.v. in http://reluk.ca/project/wayic/web/doc.task § Waycast referencing
+                ( q.v. in http://reluk.ca/project/wayic/intercast/doc.task § Waycast referencing
         + way_declaration_document.css
             < see wayic.web § Configuration of a waycast
                 ( http://reluk.ca/project/wayic/web/doc.task
