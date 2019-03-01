@@ -160,7 +160,7 @@ wayic.cast/doc.task - Documentation in rough
                             - is not properly custom
                             - rather (in this regard) it is a typical line
             +4 include commitment jointers
-                ( http://reluk.ca/project/wayic/script/doc.task § Commitment declaration
+                ( http://reluk.ca/project/wayic/exec/ § commitment declaration
                 - the text between (in document order) the start and end (inclusive)
                   of each commitment jointer
             - all text included by the rules above is in scope
@@ -189,10 +189,10 @@ wayic.cast/doc.task - Documentation in rough
             - this is also a typical way declaration, though not infrequently
               it would be amended by stemmaplasty
         + a resolve waybit
-            ( http://reluk.ca/project/wayic/script/doc.task § resolve waybit
+            ( http://reluk.ca/project/wayic/exec/ § resolve waybit
             - the minimum here is a waybit with an *id* attribute of ‘commitment’
             - no actual commitment declaration is required
-                ( http://reluk.ca/project/wayic/script/doc.task § Commitment declaration
+                ( http://reluk.ca/project/wayic/exec/ § commitment declaration
                 - though a typical waycast would have at least one
 
 
