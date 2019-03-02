@@ -14,20 +14,22 @@ wayic.cast/doc.task - Documentation in rough
     Configuration of a waycast`
     * waycast root directory
         - configuration placed in files of the waycast root directory
-        + waycast.json
+        + `waycast.json` -
             - general (declarative) configuration file
             - format: JSON
                 ( http://www.json.org/
-            < waycast_names
-                ( q.v. in http://reluk.ca/project/wayic/intercast/doc.task § Waycast referencing
-        + way_declaration_document.css
-            < see wayic.web § Configuration of a waycast
+            < `engagement` -
+                ( http://reluk.ca/project/wayic/exec/doc.task
+            < `waycast_names` -
+                ( http://reluk.ca/project/wayic/intercast/doc.task § waycast referencing
+        + `way_declaration_document.css` -
+            < see wayic.web § configuration of a waycast
                 ( http://reluk.ca/project/wayic/web/doc.task
-        + way_declaration_document.js
-            < see wayic.web § Configuration of a waycast
+        + `way_declaration_document.js` -
+            < see wayic.web § configuration of a waycast
                 ( http://reluk.ca/project/wayic/web/doc.task
     * way declaration document
-        < see wayic.web § Configuration of a waycast
+        < see wayic.web § configuration of a waycast
             ( http://reluk.ca/project/wayic/web/doc.task
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -70,6 +72,9 @@ wayic.cast/doc.task - Documentation in rough
         - its form alone constrains it to the waycast boundary
         - itself proof against an extracast referent
     - hence references of this type are *formally* intracast
+    + purpose
+        - compliance with design constraints
+            ( § design constraints § relative referencing bounded by the waycast
     + typology
         * formally intracast reference
             * import reference
@@ -159,10 +164,6 @@ wayic.cast/doc.task - Documentation in rough
                             - e.g. as an expression of disagreement
                             - is not properly custom
                             - rather (in this regard) it is a typical line
-            +4 include commitment jointers
-                ( http://reluk.ca/project/wayic/exec/ § commitment declaration
-                - the text between (in document order) the start and end (inclusive)
-                  of each commitment jointer
             - all text included by the rules above is in scope
         +5 any text that remains is not uniquely personal
 
@@ -174,8 +175,7 @@ wayic.cast/doc.task - Documentation in rough
     - waycast file /way.xht
         ( name: way.xht
         ( location: waycast root directory
-    - realizes the purpose of the waycast for a given waycaster
-      in declaring both his way and his active commitments to it
+    - realizes the purpose of the waycast by declaring the waycaster's way
     [ ⤓ minimal content
         + a way declaration
             - a minimal declaration comprises a way root element in the form of an intercast joint
@@ -188,12 +188,6 @@ wayic.cast/doc.task - Documentation in rough
                     - covered that is by the definition of "on way"
             - this is also a typical way declaration, though not infrequently
               it would be amended by stemmaplasty
-        + a resolve waybit
-            ( http://reluk.ca/project/wayic/exec/ § resolve waybit
-            - the minimum here is a waybit with an *id* attribute of ‘commitment’
-            - no actual commitment declaration is required
-                ( http://reluk.ca/project/wayic/exec/ § commitment declaration
-                - though a typical waycast would have at least one
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
