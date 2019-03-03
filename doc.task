@@ -16,6 +16,7 @@ wayic.cast/doc.task - Documentation in rough
         - configuration placed in files of the waycast root directory
         + `waycast.json` -
             - general (declarative) configuration file
+            - this file governs the overall interpretation of the waycast
             - format: JSON
                 ( http://www.json.org/
             < `engagement` -
