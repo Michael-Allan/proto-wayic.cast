@@ -14,11 +14,11 @@ wayic.cast/doc.task - Documentation in rough
     Configuration of a waycast`
     * waycast root directory
         - configuration placed in files of the waycast root directory
-        + `waycast.json` -
+        + `waycast.xml` -
             - general (declarative) configuration file
             - this file governs the overall interpretation of the waycast
-            - format: JSON
-                ( http://www.json.org/
+            - format: XML
+                ( https://www.w3.org/TR/xml/
             < `engagement` -
                 ( http://reluk.ca/project/wayic/exec/doc.task
             < `waycast_names` -
