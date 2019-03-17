@@ -107,8 +107,8 @@ wayic.cast/doc.task - Documentation in rough
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Publication of a waycast`
-    - see also wayic.intercast § Design constraints § waycast publication
-        ( http://reluk.ca/project/wayic/intercast/doc.task
+    * cross origin requests are enabled
+        < http://reluk.ca/project/wayic/intercast/doc.task § publication of the waycasts
     * waycast public identifier
         ( form [EBN]
 
