@@ -1,4 +1,4 @@
-wayic.cast/doc.task - Documentation in rough
+wayic/cast/doc.task - Documentation in rough
 
     Waycast`
     - the waycast
@@ -12,10 +12,12 @@ wayic.cast/doc.task - Documentation in rough
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Configuration of a waycast`
+    < see also: `wayic.web` § configuration of a waycast
+        ( http://reluk.ca/project/wayic/web/doc.task
     * waycast root directory
         - configuration placed in files of the waycast root directory
-        + `waycast.xml` -
-            - waycast configuration file
+        + waycast configuration file
+            - `waycast.xml` -
             - this file governs the overall interpretation of the waycast
             - format: XML
                 ( https://www.w3.org/TR/xml/
@@ -23,18 +25,19 @@ wayic.cast/doc.task - Documentation in rough
                 ( http://reluk.ca/project/wayic/exec/doc.task
             < `waycast_names` -
                 ( http://reluk.ca/project/wayic/intercast/doc.task § waycast referencing
-        + `way_declaration_document.css` -
-            < see wayic.web § configuration of a waycast
-                ( http://reluk.ca/project/wayic/web/doc.task
-        + `way_declaration_document.js` -
-            < see wayic.web § configuration of a waycast
-                ( http://reluk.ca/project/wayic/web/doc.task
+        + personal style sheet
+            - `way_declaration_document.css` -
+            < again, see `wayic.web` § configuration of a waycast
+        + personal presentation program
+            - `way_declaration_document.js` -
+            < again, see `wayic.web` § configuration of a waycast
     * way declaration document
-        < see wayic.web § configuration of a waycast
-            ( http://reluk.ca/project/wayic/web/doc.task
+        - `*.xht` -
+        < again, see wayic.web § configuration of a waycast
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Design constraints`
+    = remove these hence to topical §§
     [ ⤓ minimal
         - the necessary form of a waycast
         + ‘.xht’ extension
@@ -54,13 +57,9 @@ wayic.cast/doc.task - Documentation in rough
             - ensuring that no reference resolves to an extracast referent
             ∴ so bounded
                 ∵ unbounded relative references would be liable to breakage
-                    ∵ the waycast is portable
-                        ∵ need basic utility
-                        ∵ need user freedom
-                            ∵ wayic.architec § Fi Maximization of user freedom
-                                ( http://reluk.ca/project/wayic/architec/doc.task
+                    ∵ the waycast might be moved by the waycaster
                     ∵ the waycast is copyable
-                        ∵ wayic.architec § Fo Maximization of system availability to non-users
+                        ∵ wayic.architec § Fa Alterable in crucial functions by copy and change
                             ( http://reluk.ca/project/wayic/architec/doc.task
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -107,13 +106,24 @@ wayic.cast/doc.task - Documentation in rough
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Publication of a waycast`
-    * cross origin requests are enabled
-        < http://reluk.ca/project/wayic/intercast/doc.task § publication of the waycasts
+    * cross origin responses are enabled
+        < instructions to the waycaster: `./manual.task` § publication of a waycast § all files
+        - all files of the waycast are served to the Web
+          each with a response header of `Access-Control-Allow-Origin: *` -
+            ( https://fetch.spec.whatwg.org/#http-access-control-allow-origin
+            - as described in the manual
+                ( `./manual.task` § publication of a waycast
+        - rationale
+            ∵ cross origin sharing of waycast files is likely to be a crucial function
+              of an altered copy of this wayic
+                ∵ cross origin sharing of waycast files is a crucial function of *this* wayic
+                    - e.g. dependant parts refering to § cross origin responses are enabled, above
+            ∵ this wayic is interoperable to altered copies in crucial functions
+                ∵ wayic.architec § Fi Interoperable to altered copies in crucial functions
+                    ( http://reluk.ca/project/wayic/architec/doc.task
     * waycast public identifier
-        ( form [EBN]
-
-          waycast public identifier = ? as per http://reluk.ca/project/wayic/cast/project.task
-            § waycast relative references and waycast public locations § waycast public location ?;
+        = here redact from notes
+            ( http://reluk.ca/project/wayic/cast/project.task § waycast relative references and waycast public locations § waycast public location
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Uniquely personal content`
@@ -124,6 +134,7 @@ wayic.cast/doc.task - Documentation in rough
     - scoping rules
         - taken in order, these rules determine what text is uniquely personal
         ! these rules make no sense
+            = cf. http://reluk.ca/project/wayic/origins/project.task § demoting *uniquely personal* marks
             = sort it out
         < gross rules
             +1 include all of the waycast
