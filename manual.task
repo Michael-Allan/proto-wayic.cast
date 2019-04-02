@@ -1,0 +1,34 @@
+wayic/cast/manual.task - Instructions
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Publication of a waycast`
+    < apropos the design: `./doc.task` § publication of a waycast § cross origin responses are enabled
+    - instructions to the waycaster: how to Web serve your waycast
+    + all files
+        - all files of the waycast are served to the Web each with a special response header
+          as detailed below
+        - working example of a suitable header configuration for Apache HTTP Server
+            < http://reluk.ca/sys/host/server/etc/apache2/7_domain/reluk.ca/public/5_in_project_waycast.conf
+        * cross origin responses are enabled
+            - all files of the waycast are served to the Web
+              each with a response header of `Access-Control-Allow-Origin: *` -
+                ( https://fetch.spec.whatwg.org/#http-access-control-allow-origin
+            - this header grants to programmatic requesters originating from all network domains (`*`)
+              permission to read the files
+                ( https://www.w3.org/TR/cors/
+            - such requesters include:
+                - parts of this wayic that depend on cross origin sharing of waycast files
+                    ( `./doc.task` § publication of a waycast § cross origin responses are enabled
+                - copies of the waycast stored in your local file system (null domain)
+                  and viewed in a browser under a 'file' scheme
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────────
+    Publication of this project`
+    - instructions to the project provider: how to Web serve this project
+    + term documents
+        < see `wayic.lex` § publication
+            ( http://reluk.ca/project/wayic/lex/_/manual.task
+
+
+
+                                          Copyright © 2019 Michael Allan and contributors.  Licence MIT.
