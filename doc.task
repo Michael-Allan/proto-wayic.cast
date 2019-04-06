@@ -31,7 +31,7 @@ wayic/cast/doc.task - Documentation in rough
         + personal presentation program
             - `way_declaration_document.js` -
             < again, see `wayic.web` § configuration of a waycast
-    * way declaration document
+    + way declaration document
         - `*.xht` -
         < again, see wayic.web § configuration of a waycast
 
