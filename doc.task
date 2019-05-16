@@ -1,19 +1,19 @@
-wayic/cast/doc.task - Documentation in rough
+proto-wayic/cast/doc.task - Documentation in rough
 
     Waycast`
     - the waycast
         ( ./waycast
     - a principal component of the architecture
-        ( http://reluk.ca/project/wayic/architec/doc.task § Architecture
+        ( http://reluk.ca/project/proto-wayic/architec/doc.task § Architecture
     - function
         - directly forms architectonic members U (Personally useful)
           and G (Relating the personal to the endmost goal of the person)
-            ( http://reluk.ca/project/wayic/architec/doc.task § Architectonic
+            ( http://reluk.ca/project/proto-wayic/architec/doc.task § Architectonic
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Configuration of a waycast`
-    < see also: `wayic.web` § configuration of a waycast
-        ( http://reluk.ca/project/wayic/web/doc.task
+    < see also: `proto-wayic.web` § configuration of a waycast
+        ( http://reluk.ca/project/proto-wayic/web/doc.task
     * waycast root directory
         - configuration placed in files of the waycast root directory
         + waycast configuration file
@@ -22,18 +22,18 @@ wayic/cast/doc.task - Documentation in rough
             - format: XML
                 ( https://www.w3.org/TR/xml/
             < `engagement` -
-                ( http://reluk.ca/project/wayic/exec/doc.task
+                ( http://reluk.ca/project/proto-wayic/exec/doc.task
             < `waycast_names` -
-                ( http://reluk.ca/project/wayic/intercast/doc.task § waycast referencing
+                ( http://reluk.ca/project/proto-wayic/intercast/doc.task § waycast referencing
         + personal style sheet
             - `way_declaration_document.css` -
-            < again, see `wayic.web` § configuration of a waycast
+            < again, see `proto-wayic.web` § configuration of a waycast
         + personal presentation program
             - `way_declaration_document.js` -
-            < again, see `wayic.web` § configuration of a waycast
+            < again, see `proto-wayic.web` § configuration of a waycast
     + way declaration document
         - `*.xht` -
-        < again, see wayic.web § configuration of a waycast
+        < again, see proto-wayic.web § configuration of a waycast
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Design constraints`
@@ -59,8 +59,8 @@ wayic/cast/doc.task - Documentation in rough
                 ∵ unbounded relative references would be liable to breakage
                     ∵ the waycast might be moved by the waycaster
                     ∵ the waycast is copyable
-                        ∵ wayic.architec § Fa Alterable in crucial functions by copy and change
-                            ( http://reluk.ca/project/wayic/architec/doc.task
+                        ∵ proto-wayic.architec § Fa Alterable in crucial functions by copy and change
+                            ( http://reluk.ca/project/proto-wayic/architec/doc.task
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Formally intracast reference`
@@ -78,7 +78,7 @@ wayic/cast/doc.task - Documentation in rough
     + typology
         * formally intracast reference
             * import reference
-                ( http://reluk.ca/project/wayic/intercast/doc.task
+                ( http://reluk.ca/project/proto-wayic/intercast/doc.task
     + form
         ( [EBN]
 
@@ -119,22 +119,22 @@ wayic/cast/doc.task - Documentation in rough
                 ∵ cross origin sharing of waycast files is a crucial function of *this* wayic
                     - e.g. dependant parts refering to § cross origin responses are enabled, above
             ∵ this wayic is interoperable to altered copies in crucial functions
-                ∵ wayic.architec § Fi Interoperable to altered copies in crucial functions
-                    ( http://reluk.ca/project/wayic/architec/doc.task
+                ∵ proto-wayic.architec § Fi Interoperable to altered copies in crucial functions
+                    ( http://reluk.ca/project/proto-wayic/architec/doc.task
     * waycast public identifier
         = here redact from notes
-            ( http://reluk.ca/project/wayic/cast/project.task § waycast relative references and waycast public locations § waycast public location
+            ( http://reluk.ca/project/proto-wayic/cast/project.task § waycast relative references and waycast public locations § waycast public location
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Uniquely personal content`
-    ( cf. http://reluk.ca/project/wayic/origins/doc.task § Genotypic content
+    ( cf. http://reluk.ca/project/proto-wayic/origins/doc.task § Genotypic content
     ( cf. http://reluk.ca/w/Category:Draft#Bracket_markers_to_distinguish_meta-content_from_proper_content
     - waycast content that is improper to all but the waycaster
         - e.g. because it would sound wrong if others were to speak it
     - scoping rules
         - taken in order, these rules determine what text is uniquely personal
         ! these rules make no sense
-            = cf. http://reluk.ca/project/wayic/origins/project.task § demoting *uniquely personal* marks
+            = cf. http://reluk.ca/project/proto-wayic/origins/project.task § demoting *uniquely personal* marks
             = sort it out
         < gross rules
             +1 include all of the waycast
@@ -191,7 +191,7 @@ wayic/cast/doc.task - Documentation in rough
     [ ⤓ minimal content
         + a way declaration
             - a minimal declaration comprises a way root element in the form of an intercast joint
-                ( http://reluk.ca/project/wayic/intercast/ § Intercast joint
+                ( http://reluk.ca/project/proto-wayic/intercast/ § Intercast joint
                 = clarify the form
                     - a joint has *two* elements, not one
                 = verify that it meets the formal contraints

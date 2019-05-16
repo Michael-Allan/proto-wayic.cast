@@ -1,4 +1,4 @@
-wayic/cast/manual.task - Instructions
+proto-wayic/cast/manual.task - Instructions
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
     Publication of a waycast`
@@ -8,7 +8,7 @@ wayic/cast/manual.task - Instructions
         - all files of the waycast are served to the Web each with a special response header
           as detailed below
         - working example of a suitable header configuration for Apache HTTP Server
-            < http://reluk.ca/sys/computer/server/etc/apache2/7_domain/reluk.ca/public/5_in_project_waycast.conf
+            < http://reluk.ca/sys/computer/server/etc/apache2/7_domain/reluk.ca/public/5_in_project_proto-waycast.conf
         * cross origin responses are enabled
             - all files of the waycast are served to the Web
               each with a response header of `Access-Control-Allow-Origin: *` -
@@ -26,8 +26,8 @@ wayic/cast/manual.task - Instructions
     Publication of this project`
     - instructions to the project provider: how to Web serve this project
     + term documents
-        < see `wayic.lex` § publication
-            ( http://reluk.ca/project/wayic/lex/_/manual.task
+        < see `proto-wayic.lex` § publication
+            ( http://reluk.ca/project/proto-wayic/lex/_/manual.task
 
 
 
